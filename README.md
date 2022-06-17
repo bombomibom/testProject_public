@@ -58,4 +58,4 @@ GET 'http://ip:port/node/addNode?ip:port'
 
 ___
 ### :memo: Diagram
-![poster](./images.png)
+![poster](./diagram.png)
