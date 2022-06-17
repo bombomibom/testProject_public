@@ -17,7 +17,7 @@ ___
 3. Response from server
 ___
 ### :pushpin: Function
-####- getBlockData
+#### - getBlockData
 Get block data (blockchain.csv) information
 
 ```
@@ -25,7 +25,7 @@ GET 'http://ip:port/block/getBlockData'
 ```
 
 
-####- generateBlock
+#### - generateBlock
 Create block and add blockchain.csv (create blockchain.csv on first run)
 
 ```
@@ -33,7 +33,7 @@ GET 'http://ip:port/block/generateBlock'
 ```
 
 
-####- newtx
+#### - newtx
 Create new transaction data (create txData.csv on first run)
 
 ```
@@ -41,7 +41,7 @@ POST 'http://ip:port/block/newtx'
 ```
 
 
-####- validateBlock
+#### - validateBlock
 Comparison of my socket server block and the requested counterpart server block (validation check)
 
 ```
@@ -49,7 +49,7 @@ POST 'http://ip:port/block/validateBlock'
 ```
 
 
-####- addNode
+#### - addNode
 Add server ip, port to be linked during broadcasting (create nodelst.csv on first run)
 
 ```
